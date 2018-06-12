@@ -6,6 +6,7 @@ class RPSGame
   def input
     if input =! "rock"; "paper"; "scissors"
       puts "invalid"
+    end
   end
 
   class PlayTypeError < StandardError
