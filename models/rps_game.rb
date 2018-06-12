@@ -1,10 +1,7 @@
 class RPSGame
+  puts "Rock, Paper, Scissors, SHOOT!"
 
-  if gets.strip != @rock, @paper, @scissors
-    puts "invalid"
-  end
-
-
+  input = gets.strip
 
   class PlayTypeError < StandardError
     # Don't be alarmed! This is a class set inside a class, but works just fine in Ruby
