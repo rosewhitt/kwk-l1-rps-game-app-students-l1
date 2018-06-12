@@ -1,9 +1,4 @@
 class RPSGame
-  def initialize(rock, paper, scissors)
-    @rock = rock
-    @scissors = scissors
-    @paper = paper
-  end
 
   if gets.strip != @rock, @paper, @scissors
     puts "invalid"
