@@ -3,11 +3,18 @@ class RPSGame
 
   input = gets.strip
 
-  def input
-    if input =! "rock"; "paper"; "scissors"
+  def input("rock", "paper", "scissors")
+    if input= "rock"
+      puts "rand(3)"
+    elsif input = "paper"
+      puts "rand(3)"
+    elsif input = "scissors"
+      puts "rand(3)"
+    else
       puts "invalid"
     end
   end
+
 
   class PlayTypeError < StandardError
     # Don't be alarmed! This is a class set inside a class, but works just fine in Ruby
