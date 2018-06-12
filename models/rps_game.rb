@@ -3,16 +3,10 @@ class RPSGame
 
   input = gets.strip
 
-  def input("rock", "paper", "scissors")
-    if input= "rock"
-      puts "rand(3)"
-    elsif input = "paper"
-      puts "rand(3)"
-    elsif input = "scissors"
-      puts "rand(3)"
-    else
-      puts "invalid"
-    end
+  def initialize(rock, paper, scissors)
+    @rock = rock
+    @paper = paper
+    @scissors = scissors
   end
 
 
