@@ -10,7 +10,11 @@ class RPSGame
   end
 
   def input
-    if input != @rock, @paper, @scissors
+    if input != @rock
+      puts "invalid input"
+    elsif input != @paper
+      puts "invalid input"
+    elsif input != @scissors
       puts "invalid input"
     end
   end
