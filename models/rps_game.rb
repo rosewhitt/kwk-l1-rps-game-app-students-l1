@@ -4,7 +4,7 @@ class RPSGame
   input = gets.strip
 
   def input
-    if input =! "rock"; "paper";"scissors"
+    if input =! "rock", "paper", "scissors"
       puts "invalid"
   end
 
