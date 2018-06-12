@@ -4,7 +4,19 @@ class RPSGame
     @scissors = scissors
     @paper = paper
   end
-  
+
+  def rock
+    @rock
+  end
+
+  def scissors
+    @scissors
+  end
+
+  def paper
+    @paper
+  end
+
 
 
   class PlayTypeError < StandardError
