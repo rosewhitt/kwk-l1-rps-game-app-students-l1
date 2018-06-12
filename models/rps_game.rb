@@ -5,16 +5,8 @@ class RPSGame
     @paper = paper
   end
 
-  def rock
-    @rock
-  end
-
-  def scissors
-    @scissors
-  end
-
-  def paper
-    @paper
+  if gets.strip != @rock, @paper, @scissors
+    puts "invalid"
   end
 
 
